@@ -1,0 +1,15 @@
+body, header, nav, main, footer, h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body */
+body{
+    background-color: #fff;
+}
+
+header img {
+    margin: 0 auto;
+    background-color: #006747;
+}
