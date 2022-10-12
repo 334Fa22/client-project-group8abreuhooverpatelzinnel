@@ -4,6 +4,10 @@ body, header, nav, main, footer, h1{
     border: 0;
 }
 
+#menu-links {
+  display: none;
+}
+
 /* Style rules for body */
 body{
     background-color: #fff;
@@ -16,4 +20,12 @@ header img {
 
 header{
     background-color: #006747;
+}
+/*Style rules for hamburger menu*/
+nav a.menu-icon {
+  display:block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
 }

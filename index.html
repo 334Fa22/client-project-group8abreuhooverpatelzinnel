@@ -4,7 +4,7 @@
 <head>
 	<title>CatPaws</title>
 	<meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -17,12 +17,13 @@
 	<div id="container">
 
 		<!-- Use the header area for the website name or logo -->
-		<header>
+		<header Id="nw-logo">
 			<a href="index.html"><img src="images\NLogo.png" alt="NW Logo" height="79" width="74"></a>
 		</header>
 
 		<!-- Use the nav area to add hyperlinks to other pages within the website -->
 		<nav>
+			<div id="menu-links">
 			<ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="checkappstatus.html">Check Application Status</a></li>
@@ -30,6 +31,10 @@
           <li><a href="onlineclassopenings.html">Online Class Openings</a></li>
           <li><a href="textbookinfo.html">Textbook Information</a></li>
       </ul>
+		</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
 		</nav>
 
 		<!-- Use the main area to add the main content of the webpage -->
@@ -42,6 +47,6 @@
 		</footer>
 
 	</div>
-
+	<script src="scripts/script.js"></script>
 </body>
 </html>
