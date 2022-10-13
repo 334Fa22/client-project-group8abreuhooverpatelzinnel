@@ -20,6 +20,7 @@ header img {
 
 header {
     background-color: #006747;
+
 }
 
 h1, h2 {
@@ -30,6 +31,7 @@ h1, h2 {
 h1 {
     font-size: 1.2em;
     font-weight: 400;
+    text-align: center;
 }
 
 h2 {
