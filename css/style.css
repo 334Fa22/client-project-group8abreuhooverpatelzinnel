@@ -21,9 +21,23 @@ header img {
 header{
     background-color: #006747;
 }
+
+h1 {
+    color: white;
+    font-size: 1em;
+    display: inline;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2em;
+    display: inline;
+}
+
 /*Style rules for hamburger menu*/
 nav a.menu-icon {
-  display:block;
+  display: block;
   position: absolute;
   right: 0;
   top: 0;
