@@ -18,21 +18,22 @@ header img {
     background-color: #006747;
 }
 
-header{
+header {
     background-color: #006747;
 }
 
-h1 {
+h1, h2 {
     color: white;
-    font-size: 1em;
-    display: inline;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 1.2em;
+    font-weight: 400;
 }
 
 h2 {
-    color: white;
-    font-family: sans-serif;
     font-size: 2em;
-    display: inline;
 }
 
 /*Style rules for hamburger menu*/
