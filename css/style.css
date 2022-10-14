@@ -6,6 +6,8 @@ body, header, nav, main, footer, h1{
 
 #menu-links {
   display: none;
+  float:right;
+  margin-top: 0;
 }
 
 /* Style rules for body */
@@ -14,28 +16,49 @@ body{
 }
 
 header img {
-    margin: 0 auto;
+    margin-top: : 0;
     background-color: #006747;
+    padding: 2% 2%;
 }
 
 header {
     background-color: #006747;
+    padding-top: 0;
+    height: 7em;
+    margin-right: 7em;
 
 }
 
 h1, h2 {
     color: white;
     font-family: sans-serif;
+    margin: 0 auto;
+    background-color: #006747;
 }
 
 h1 {
     font-size: 1.2em;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
+    width: 85%;
+    float:right;
+    padding-top: 3em;
+    height: 1em;
+    padding-bottom: 0;
+
 }
 
 h2 {
     font-size: 2em;
+    width:85%;
+    text-align: left
+    padding-top: 0;
+    float: right;
+    height: 1em;
+    margin-right: 7em;
+
+
+
 }
 
 /*Style rules for hamburger menu*/
@@ -48,7 +71,7 @@ nav a {
 
 nav ul {
   list-style-type: none;
-  text-align: right;
+  text-align: left;
 }
 
 nav a.menu-icon {
@@ -62,17 +85,33 @@ nav a.menu-icon {
 
 /*Style rules for footer content*/
 footer {
+
     background-color: #006747;
+    height: 8em;
+    margin-top: 22em;
+
+
 }
 
 footer .copyright {
     font-size: 1em;
-    text-align: center;
+    text-align: left;
     color: #fff;
-    padding-top: 2em;
+    float:right;
+    width:90%;
+    height: 5em;
+    padding-top: 1em;
+
+
 }
 
 footer .totopbutton {
-    padding-bottom: 1em;
+    float: left;
     text-align: center;
+    background-color: #006747;
+    padding: 2% 2%;
+
+
+
+
 }
