@@ -39,10 +39,40 @@ h2 {
 }
 
 /*Style rules for hamburger menu*/
+nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #006747;
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+}
+
 nav a.menu-icon {
   display: block;
   position: absolute;
-  right: 0;
+  right: .2em;
   top: 0;
   color: white;
+  font-size: 3.5em;
+}
+
+/*Style rules for footer content*/
+footer {
+    background-color: #006747;
+}
+
+footer .copyright {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding-top: 2em;
+}
+
+footer .totopbutton {
+    padding-bottom: 1em;
+    text-align: center;
 }
