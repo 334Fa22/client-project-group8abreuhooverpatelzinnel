@@ -15,6 +15,12 @@ body{
     background-color: #fff;
 }
 
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {
+
+  /* Desktop Viewport: Style rule for header */
+
+
 header img {
     margin-top: : 0;
     background-color: #006448;
@@ -51,6 +57,7 @@ nav a.menu-icon {
   font-size: 3.5em;
 }
 
+
 /*Style rules for footer content*/
 footer {
 
@@ -82,4 +89,40 @@ footer .totopbutton {
 
 
 
+}
+}
+
+/* Style rules for mobile viewport */
+/* Style rule for header */
+header {
+  top: 0;
+  background-color: #006448;
+
+
+}
+
+header img {
+  margin: 0 auto;
+  height: 3em;
+  width: 85%;
+}
+
+/* Style rules for hamburger menu */
+.mobile-nav a {
+  color: #fff;
+  font-family: "Francois One", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 3%;
+  display: block;
+  float: right;
+}
+
+.mobile-nav a.menu-icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  float:right;
 }
