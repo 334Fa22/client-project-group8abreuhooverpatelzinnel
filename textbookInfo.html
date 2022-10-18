@@ -40,6 +40,52 @@
 
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
+			<h1> Textbook & Supplemental Information</h1>
+
+				<h3> Select Term (REQUIRED): </h3>
+
+				<P>Search by Course Number (5 Digit):</p>
+				<h3> -OR- </h3>
+				<p>Select Department (REQUIRED): - Select Level: - Select Part of Term: - Select Course Attribute: - Select Instructor: - SUBMIT </p>
+
+			<h1> A Word About Textbooks... </h1>
+
+					<p> The textbooks listed for each course are not guaranteed to be all inclusive but to give you some idea of the textbook(s) that will be used for the selected course(s) that you are viewing.</p>
+					<p>Due to faculty changes and other factors the textbooks and required materials might change prior to classes beginning. Some courses require purchased materials to accompany the rental materials. To view required textbooks/materials that will need to be purchased use the links below. </p>
+					<p> Online Professional (OP) students can find your textbooks with the Online Professional Textbook Finder </p>
+
+			<h1> Need Textbook Help? </h1>
+
+					<p> If you have any questions regarding your textbooks please feel free to contact Textbook Services. You can also reach Textbook Services by phone at 660.562.1150</p>
+					<p> For more information about Textbook Services, visit our website: https://www.nwmissouri.edu/textbooks.htm</p>
+
+<!-- Select Term Form -->
+					<form>
+						<label for="termselect"> Select Term (REQUIRED): </label> <!-- Make this title bolder (h3 esc.) -->
+						<select name="termselect" id="termselect">
+								<option value="spring23"> Spring 2023 </option>
+								<option value="fall22"> Fall 2022 </option>
+								<option value="summer22"> Summer 2022 (Inactive) </option>
+								<option value="spring22"> Spring 2022 (Inactive) </option>
+								<option value="fall21"> Fall 2021 (Inactive) </option>
+								<option value="summer21"> Summer 2021 (Inactive) </option>
+								<option value="spring20"> Spring 2020 (Inactive) </option>
+								<option value="fall20"> Fall 2020 (Inactive) </option>
+						</select>
+
+<!-- Search by CRN Form -->
+						<label for="crn"> Search by Course Number (5 Digit): </label>
+						<input type="number" name="crn" id="crn" max="5"> <!-- Make sure the max length thing works, only 5 digits allowed, In CSS, "input type="number" {display: none;}" -->
+
+<!--INSERT "OR" TEXT HERE-->
+						<label for="departselect"> Select Department (REQUIRED): </label>
+						<select name="departselect" id="departselect">
+								<option value="accounting"> Accounting/51 </option>
+								<option value="agriculture"> Agriculture/03 </option>
+						</select>
+
+					</form>
+
 		</main>
 
 		<!-- Use the footer area to add webpage footer content -->
@@ -51,7 +97,7 @@
 		  </div>
 		  <!-- May or may not use, depends on the time or need-->
 		  <div class="totopbutton">
-		    <a href="index.html">
+		    <a href="textbookinfo.html">
 					<!--change 'index.html to the specific page name for each different footer'-->
 					<img src="images/NWPaw.png" alt="To Top of Page Catpaw Button" height="70" width="70"></a>
 		  </div>
