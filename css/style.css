@@ -101,11 +101,7 @@ header {
 
 }
 
-header img {
-  margin: 0 auto;
-  height: 3em;
-  width: 85%;
-}
+
 
 /* Style rules for hamburger menu */
 .mobile-nav a {
