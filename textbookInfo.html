@@ -40,6 +40,7 @@
 
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
+		<!-- This is a style reference, for next week
 			<h1> Textbook & Supplemental Information</h1>
 
 				<h3> Select Term (REQUIRED): </h3>
@@ -58,7 +59,7 @@
 
 					<p> If you have any questions regarding your textbooks please feel free to contact Textbook Services. You can also reach Textbook Services by phone at 660.562.1150</p>
 					<p> For more information about Textbook Services, visit our website: https://www.nwmissouri.edu/textbooks.htm</p>
-
+		-->
 <!-- Select Term Form -->
 					<form>
 						<label for="termselect"> Select Term (REQUIRED): </label> <!-- Make this title bolder (h3 esc.) -->
@@ -77,12 +78,67 @@
 						<label for="crn"> Search by Course Number (5 Digit): </label>
 						<input type="number" name="crn" id="crn" max="5"> <!-- Make sure the max length thing works, only 5 digits allowed, In CSS, "input type="number" {display: none;}" -->
 
-<!--INSERT "OR" TEXT HERE-->
+<!--INSERT "OR" TEXT HERE--> <h3> --OR-- </h3>
+
+<!-- Select Department Form -->
 						<label for="departselect"> Select Department (REQUIRED): </label>
 						<select name="departselect" id="departselect">
 								<option value="accounting"> Accounting/51 </option>
 								<option value="agriculture"> Agriculture/03 </option>
+								<option value="art"> Art/13 </option>
+								<option value="bioscience"> Biological Sciences/04 </option>
+								<option value="boofcollege"> Boof College Bus & Prof St/76 </option>
+								<option value="careered"> Career Education/02 </option>
+								<option value="chemistry"> Chemistry/24 </option>
+								<option value="collegeart"> College of Art & Sciences/71 </option>
+								<option value="collegeed"> College of Ed & Human Serv/73 </option>
+								<option value="communication"> Communication/29 </option>
 						</select>
+
+						<label for="levelselect"> Select Level: </label>
+						<select name="levelselect" id="levelselect">
+								<option value="alllevel"> ALL </option>
+								<option value="graduate"> Graduate </option>
+								<option value="specialist"> Specialist </option>
+								<option value="undergrad"> Undergraduate </option>
+						</select>
+
+						<label for="termpart"> Select Part of Term: </label>
+						<select name="termpart" id="termpart">
+								<option value="allterm"> ALL </option>
+								<option value="1&2"> 1 & 2 Block </option>
+								<option value="2&3"> 2 & 3 Block </option>
+								<option value="7block1"> 7-Week Block 1 </option>
+								<option value="7block2"> 7-Week Block 2 </option>
+								<option value="firstblock"> First Block </option>
+								<option value="secblock"> Second Block </option>
+								<option value="thirblock"> Third Block </option>
+								<option value="fullterm"> Full Term </option>
+								<option value="intersession"> Intersession </option>
+								<option value="offsched"> Off Schedule </option>
+								<option value="onlprof1"> Online Professional Block 1 </option>
+								<option value="onlprof2"> Online Professional Block 2 </option>
+						</select>
+
+						<label for="courseatt"> Select Course Attribute: </label>
+						<select name="courseatt" id="courseatt">
+								<option value="allcourse"> ALL </option>
+								<option value="sciencesem"> AMNH Science Seminar </option>
+								<option value="blend"> Blended Course </option>
+								<option value="china"> China - International Location </option>
+								<option value="competency"> Competency-Based </option>
+								<option value="HSdual"> HS Dual Credit </option>
+								<option value="HSdualweb"> HS Dual Credit - Web Based </option>
+								<option value="IRdiglit"> IR Digital Literacy </option>
+								<option value="IRunisem"> IR University Seminar </option>
+								<option value="kandoc"> Kansas City MU Doctoral Prog </option>
+						</select>
+
+						<label for="instructor"> Select Instructor: </label>
+						<select name="instructor" id="instructor">
+								<option value="allinstr"> ALL </option>
+
+
 
 					</form>
 
