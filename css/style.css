@@ -15,6 +15,21 @@ body{
     background-color: #fff;
 }
 
+/* Style rules for mobile viewport */
+
+/* Style rule for header */
+header {
+  top: 0;
+  background-color: #006448;
+}
+
+/* Hide tab-desk class */
+.tab-desk {
+    display: none;
+}
+
+
+
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
 
@@ -22,7 +37,7 @@ body{
 
 
 header img {
-    margin-top: : 0;
+    padding: 10px;
     background-color: #006448;
 
 }
