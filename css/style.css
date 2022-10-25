@@ -112,13 +112,38 @@ main h3 {
   color: #000;
 }
 
-/* Style rules for forms */
+fieldset.searchmain {
+  float: left;
+}
 
-form {
-  padding-left: 30px;
+fieldset.searchonly {
+  position: relative;
+  padding-left: 500px;
 }
 
 
+/* trying to put two forms next to eachother */
+
+#classopeningsform1 {
+  padding-left: 50px;
+  width: 650px;
+}
+
+#classopeningsform input, select {
+  width: 100%;
+}
+
+#classopeningsform label {
+  display: block;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  color: #fff;
+}
+
+#classopeningsform fieldset {
+  background-color: #83B9AB;
+}
 
 /* Style rules for mobile viewport */
 
