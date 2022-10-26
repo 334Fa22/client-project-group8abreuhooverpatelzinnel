@@ -90,6 +90,9 @@ div.header {
   padding-left: 20px;
 }
 
+article.onlineclassopenings  {
+  width: 50%;
+}
     /*class openings form content*/
 
 #classopeningsform1 label {
