@@ -3,7 +3,7 @@ Author: Group 8
 File Name: style.css
 */
 
-body, header, nav, main, footer, h1 {
+body, header, nav, main, h1 {
   margin: 0;
   padding: 0;
   border: 0;
@@ -94,7 +94,7 @@ article fieldset {
 }
 
 #onlineclassopeningform select {
-  width: 71%;
+  width: 74.5%;
 }
 
 #onlineclassopeningform label {
@@ -105,6 +105,10 @@ article fieldset {
   margin-left: 38px;
   border-width: 1px;
   border-radius: 5px;
+}
+
+#canvasscreen {
+  filter: drop-shadow(4px 4px 8px #191919);
 }
 
     /*class openings form content*/
@@ -394,22 +398,6 @@ nav a .menu-icon {
 
 /*Style rules for footer content*/
 
-
-footer {
-  background-color: #006448;
-  height: 8em;
-  width: 100%;
-  margin-top: 40em;
-}
-
-/* this one was wonky on my page so i switched it up - see above
-footer {
-  background-color: #006448;
-  height: 8em;
-  margin-top: 19em;
-}
-*/
-
 footer .copyright {
   font-size: 1em;
   text-align: left;
@@ -426,6 +414,5 @@ footer .totopbutton {
   background-color: #006448;
   padding: 2% 2%;
 }
-
 
 }
