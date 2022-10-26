@@ -64,10 +64,6 @@ div.header {
 
     /*online class openings form content*/
 
-#onlineclassopeningform {
-  border-style: solid;
-  border-radius: 35px;
-}
 
 #onlineclassopeningform select, input {
   margin-left: 40px;
@@ -81,17 +77,23 @@ div.header {
   padding-left: 20px;
 }
 
-#border {
+article fieldset {
   border-style: none;
-  padding-right: 50%;
+  padding-right: 40%;
 }
 
-.key {
+div.key {
   padding-left: 20px;
 }
 
 article.onlineclassopenings  {
   width: 50%;
+  border-radius: 35px;
+  border-style: solid;
+}
+
+aside img {
+  
 }
     /*class openings form content*/
 

@@ -50,9 +50,9 @@
 
 			<article class="onlineclassopenings">
 
-			<div>
+		<div>
 			<form id="onlineclassopeningform"><!-- Start Form -->
-				<fieldset id="border">
+				<fieldset>
 					<label for="term">Select Term:</label>
 						<select name="terms" required>
 							<option>Spring 2023</option>
@@ -69,7 +69,7 @@
 				</fieldset>
 
 
-				<fieldset id="border">
+				<fieldset>
 					<label for="department">Search by Department:</label>
 						<select name="departments">
 							<option>All Departments</option>
@@ -128,10 +128,14 @@
 						</select>
 					</fieldset>
 
-					<fieldset id="border">
+					<fieldset>
 						<label for="course#">Search by Course Number:</label>
 							<input type="text" name="course#" id="course#">
 					</fieldset>
+
+					<input type="submit" id="submit">
+
+				</form>
 
 
 				<div class="key">
@@ -142,12 +146,14 @@
 					<p>Term selection required for all types of searches</p>
 				</div>
 
-
-				<aside id="classroom"><img src="images/class.jpg" alt="classroom">
-				</aside>
-
 			</div>
 		</article>
+
+				<aside id="classroom">
+					<img src="images/class.jpg" alt="classroom">
+				</aside>
+
+
 
 		</main>
 
