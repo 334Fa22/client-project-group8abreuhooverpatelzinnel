@@ -64,50 +64,22 @@ div.header {
 
     /*online class openings form content*/
 
-#onlineclassopeningform select, input {
-  margin-left: 40px;
-}
 
-#onlineclassopeningform label {
-  font-weight: bold;
-  font-size: large;
-  display: block;
-  padding-top: 20px;
-  padding-left: 20px;
-}
 
 article fieldset {
   border-style: none;
 }
 
-div.key {
-  padding-left: 20px;
-}
 
 .key p {
   padding-top: 0%;
 }
 
-article.onlineclassopenings  {
-  width: 40%;
-  border-radius: 35px;
-  border-style: solid;
-  float: left;
-  display: inline-block;
-  margin-right: 5%;
-  margin-top: 3%;
-  margin-left: 3%;
-}
 
-#classroom {
-  margin-left: 13%;
-  margin-top:6%;
-  border-style: solid;
-}
 
     /*class openings form content*/
 
-#classopeningsform1 label {
+#classopeningsform1 label, #onlineclassopeningform label {
   display: inline-block;
   font-family: sans-serif;
   font-size: .9em;
@@ -117,7 +89,7 @@ article.onlineclassopenings  {
   padding: 3px;
 }
 
-#classopeningsform1 select {
+#classopeningsform1 select, #onlineclassopeningform select {
   display: inline-block;
   width: 73.8%;
   padding: 3px;
@@ -130,7 +102,7 @@ article.onlineclassopenings  {
   float: left;
 }
 
-#classopeningsform1 .btn2 {
+#classopeningsform1 .btn2, #onlineclassopeningform .btn2 {
   background-color: #006448;
   color: #fff;
   font-size: 1em;
@@ -271,14 +243,14 @@ article p {
   padding-top: 80px;
 }
 
-article.criteria {
+article.criteria, article.onlineclassopenings {
   display: inline-block;
   float: left;
   width: 60%;
   margin-right: 50px;
 }
 
-article.criteria h3 {
+article.criteria h3, article.onlineclassopenings h3 {
   border-bottom: 1px solid #000;
   width: 90%;
   padding: 0px;
