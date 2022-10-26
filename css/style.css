@@ -64,6 +64,10 @@ div.header {
 
     /*online class openings form content*/
 
+.grid {
+  display: inline-block;
+}
+
 article.onlineclassopenings {
   margin-top: 3%;
 }
@@ -96,11 +100,16 @@ article.onlineclassopenings  {
   width: 40%;
   border-radius: 35px;
   border-style: solid;
+  float: left;
+  display: inline-block;
+  margin-right: 5%;
 }
 
-aside img {
-
+#classroom {
+  margin-left: 13%;
+  margin-top:6%;
 }
+
     /*class openings form content*/
 
 #classopeningsform1 label {
