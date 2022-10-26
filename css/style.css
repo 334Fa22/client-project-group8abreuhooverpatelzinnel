@@ -70,12 +70,42 @@ article fieldset {
   border-style: none;
 }
 
+.key {
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c6ddd7;
+  padding-bottom: 6px;
+}
 
 .key p {
   padding-top: 0%;
 }
 
+.key h2{
+  font-family: sans-serif;
+  font-size: 1.15em;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #000;
+}
 
+#onlineclassopeningform select {
+  width: 71%;
+}
+
+#onlineclassopeningform label {
+  padding-left: 30px;
+}
+
+#onlineclassopeningform input {
+  margin-left: 38px;
+  border-width: 1px;
+  border-radius: 5px;
+}
 
     /*class openings form content*/
 
@@ -86,12 +116,11 @@ article fieldset {
   font-weight: 600;
   color: #000;
   float: left;
-  padding: 3px;
+  padding-top: 3px;
 }
 
 #classopeningsform1 select, #onlineclassopeningform select {
   display: inline-block;
-  width: 73.8%;
   padding: 3px;
   margin-left: 180px;
   margin-top: -15px;
@@ -100,6 +129,10 @@ article fieldset {
   border-width: 1px;
   border-color: #000;
   float: left;
+}
+
+#classopeningsform1 select {
+  width: 70%;
 }
 
 #classopeningsform1 .btn2, #onlineclassopeningform .btn2 {
