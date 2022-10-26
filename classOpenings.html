@@ -29,17 +29,6 @@
 
 			</header>
 
-		<!--
-		<header>
-
-			<div class="header">
-				<a href="index.html"><img src="images/headerimg.png" alt="CatPaws Banner"></a>
-			</div>
-
-		</header>
-	-->
-
-
 		<!-- Use the nav area to add hyperlinks to other pages within the website -->
 		<nav>
 			<div id="menu-links">
@@ -60,673 +49,267 @@
 		<main>
 			<h1>Northwest Class Openings</h1>
 
-			<div id="form">
-				<h2>Select Criteria</h2>
-				<form><!-- Start Form -->
+			<article class="criteria">
+				<div>
 
-					<h3><b>Required for all searches</b></h3>
+					<form id="classopeningsform1"><!-- Start Form -->
 
-					<fieldset>
-						<label for="term">Term:</label>
-						<select name="term" id="term">
-							<option>Spring 2023</option>
-							<option>Fall 2022</option>
-							<option>Spring 2022</option>
-							<option>Fall 2020</option>
-						</select>
-					</fieldset>
+						<h3>Required</h3>
 
-					<h3><b>Enter Additional Criteria</b></h3>
+							<fieldset>
+								<label for="term">Term*</label>
+								<select name="term" id="term">
+									<option>Spring 2023</option>
+									<option>Fall 2022</option>
+									<option>Spring 2022</option>
+									<option>Fall 2020</option>
+								</select>
+							</fieldset>
 
-					<fieldset>
-						<label for="department">Department:</label>
-						<select name="department" id="department">
-							<option>All Departments</option>
-							<option>Accounting/51</option>
-							<option>Agriculture/03</option>
-							<opiton>Art/13</option>
-							<option>Biological Sciences/04</option>
-							<option>Booth College Bus & Prof St/76</option>
-							<option>Career Education/02</option>
-							<option>Chemistry/24</option>
-							<option>College of Arts & Sciences/71</option>
-							<option>College of Ed & Human Serv/73</option>
-							<option>Communication/29</option>
-							<option>Computer Sci/Info Systems/44</option>
-							<option>Criminology/46</option>
-							<option>Economics/52</option>
-							<option>Education: Curriculum/Instr/62</option>
-							<option>Education: Genl/Leadership/61</option>
-							<option>Emergency and Disaster Mgmt/36</option>
-							<option>English/10</option>
-							<option>Family & Consumer Sciences/15</option>
-							<option>Finance/53</option>
-							<option>Foods and Nutrition/47</option>
-							<option>Geography/32</option>
-							<option>Geology/27</option>
-							<option>Health & Physical Education/22</option>
-							<option>Health Sciences/49</option>
-							<option>History/33</option>
-							<option>Humanities/26</option>
-							<option>Inter-College/77</option>
-							<option>International Study/80</option>
-							<option>Languages/14</option>
-							<option>MO Academy-Sci, Math, Compt/81</option>
-							<option>Management/54</option>
-							<option>Marketing/55</option>
-							<option>Mass Media/20</option>
-							<option>Mathematics and Statistics/17</option>
-							<option>Military Science/42</option>
-							<option>Music/19</option>
-							<option>NW Core Interdisciplinary/90</option>
-							<option>Nanoscale Science/48</option>
-							<option>Nursing/01</option>
-							<option>Philosophy/39</option>
-							<option>Physical Science/40</option>
-							<option>Physics/25</option>
-							<option>Political Science/34</option>
-							<option>Psychology/08</option>
-							<option>Recreation/45</option>
-							<option>School Counseling/68</option>
-							<option>Science Education/28</option>
-							<option>Social Sci/36</option>
-							<option>Sociology/35</option>
-							<option>Theatre/43</option>
-						</select>
-						<label for="level">Level:</label>
-						<select name="level" id="level">
-							<option>All Levels</option>
-							<option>Graduate</option>
-							<option>Specialist</option>
-							<option>Undergraduate</option>
-						</select>
+						<h3>Additional Information</h3>
 
-						<label for="part">Part of Term:</label>
-						<select name="part" id="part">
-							<option>All Options</option>
-							<option>Block 1 & 2</option>
-							<option>Block 2 & 3</option>
-							<option>7-Week Block 1</option>
-							<option>7-Week Block 2</option>
-							<option>First Block</option>
-							<option>Full Term</option>
-							<option>Intersession</option>
-							<option>Off-Schedule</option>
-							<option>Online Professional Block 1</option>
-							<option>Online Professional Block 2</option>
-							<option>Second Block</option>
-							<option>Third Block</option>
-						</select>
+							<fieldset>
+								<label for="department">Department</label>
+								<select name="department" id="department">
+									<option>All Departments</option>
+									<option>Accounting/51</option>
+									<option>Agriculture/03</option>
+									<opiton>Art/13</option>
+									<option>Biological Sciences/04</option>
+									<option>Booth College Bus & Prof St/76</option>
+									<option>Career Education/02</option>
+									<option>Chemistry/24</option>
+									<option>College of Arts & Sciences/71</option>
+									<option>College of Ed & Human Serv/73</option>
+									<option>Communication/29</option>
+									<option>Computer Sci/Info Systems/44</option>
+									<option>Criminology/46</option>
+									<option>Economics/52</option>
+									<option>Education: Curriculum/Instr/62</option>
+									<option>Education: Genl/Leadership/61</option>
+									<option>Emergency and Disaster Mgmt/36</option>
+									<option>English/10</option>
+									<option>Family & Consumer Sciences/15</option>
+									<option>Finance/53</option>
+									<option>Foods and Nutrition/47</option>
+									<option>Geography/32</option>
+									<option>Geology/27</option>
+									<option>Health & Physical Education/22</option>
+									<option>Health Sciences/49</option>
+									<option>History/33</option>
+									<option>Humanities/26</option>
+									<option>Inter-College/77</option>
+									<option>International Study/80</option>
+									<option>Languages/14</option>
+									<option>MO Academy-Sci, Math, Compt/81</option>
+									<option>Management/54</option>
+									<option>Marketing/55</option>
+									<option>Mass Media/20</option>
+									<option>Mathematics and Statistics/17</option>
+									<option>Military Science/42</option>
+									<option>Music/19</option>
+									<option>NW Core Interdisciplinary/90</option>
+									<option>Nanoscale Science/48</option>
+									<option>Nursing/01</option>
+									<option>Philosophy/39</option>
+									<option>Physical Science/40</option>
+									<option>Physics/25</option>
+									<option>Political Science/34</option>
+									<option>Psychology/08</option>
+									<option>Recreation/45</option>
+									<option>School Counseling/68</option>
+									<option>Science Education/28</option>
+									<option>Social Sci/36</option>
+									<option>Sociology/35</option>
+									<option>Theatre/43</option>
+								</select>
 
-						<label for="attribute">Course Attribute:</label>
-						<select name="attribute" id="attribute">
-							<option>All Course Attributes</option>
-							<option>AMNH Science Seminar</option>
-							<option>Blended Course</option>
-							<option>China - International Location</option>
-							<option>Competency-Based</option>
-							<option>Fellows-Independence Sch District</option>
-							<option>HS Dual Credit</option>
-							<option>HS Dual Credit - Web Course</option>
-							<option>IR Digital Literacy</option>
-							<option>IR University Seminar</option>
-							<option>Kansas City MU Doctoral Prog</option>
-							<option>MU Doctoral Program</option>
-							<option>Marine Science Gulf Coast</option>
-							<option>NW Core Civics</option>
-							<option>NW Core Fine Arts</option>
-							<option>NW Core Humanities</option>
-							<option>NW Core Life Sciences</option>
-							<option>NW Core Literature</option>
-							<option>NW Core Mathematical Sciences</option>
-							<option>NW Core Oral Communication</option>
-							<option>NW Core Physical Sciences</option>
-							<option>NW Core Social/Behavioral Sci</option>
-							<option>NW Core Written Communication</option>
-							<option>Northwest-Kan City - Web Course</option>
-							<option>Northwest Kansas City</option>
-							<option>Online Professional - Block 1</option>
-							<option>Online Professional - Block 2</option>
-							<option>Prof Dev - Kansas City</option>
-							<option>Prof Dev - RPDC</option>
-							<option>Professional Development</option>
-							<option>Student Abroad</option>
-							<option>Student Abroad Exchange</option>
-							<option>Web - Online Only Student</option>
-							<option>Web Course</option>
-						</select>
+								<label for="level">Level</label>
+								<select name="level" id="level">
+									<option>All Levels</option>
+									<option>Graduate</option>
+									<option>Specialist</option>
+									<option>Undergraduate</option>
+								</select>
 
-						<label for="instructor">Instructor</label>
-						<select name="instructor" id="instructor">
-							<option>All Instructors</option>
-							<option>Abernathy,Deborah</option>
-							<option>Abington,Casey</option>
-							<option>Adam,Peter</option>
-							<option>Adanin,Kristina</option>
-							<option>Adkins,Joni</option>
-							<option>Adkins,Kimberly</option>
-							<option>Akins,Robyn</option>
-							<option>Akkouche,Dyan</option>
-							<option>Al Ali,Ali</option>
-							<option>Alabasi,Karima</option>
-							<option>Alexander,Kristina</option>
-							<option>Allen,Michelle</option>
-							<option>Alobaidi,Isam</option>
-							<option>Alston,Barbara</option>
-							<option>Anderson,Jessica</option>
-							<option>Anderson,Bradley</option>
-							<option>Anderson,Jessica</option>
-							<option>Anderson,Kyle</option>
-							<option>Anderson,Timothy</option>
-							<option>Aramjoo,Ashley</option>
-							<option>Arens,Corinne</option>
-							<option>Armstrong,Robert</option>
-							<option>Arndt,Robert</option>
-							<option>Atkinson,Allison</option>
-							<option>Bai,Hua</option>
-							<option>Baker,Jill</option>
-							<option>Baker,Robert</option>
-							<option>Bandi,Ajay</option>
-							<option>Barner,Natalie</option>
-							<option>Barr,Rodney</option>
-							<option>Barton,Amy</option>
-							<option>Bateman,Michelle</option>
-							<option>Baugher,Johannah</option>
-							<option>Bauman,Darbi</option>
-							<option>Bax,Matthew</option>
-							<option>Beck,Shandy</option>
-							<option>Bedford,Lee</option>
-							<option>Beemer,Rhonda</option>
-							<option>Bell,John</option>
-							<option>Bellamy,Michael</option>
-							<option>Bennett,Paul</option>
-							<option>Bergland,Robert</option>
-							<option>Berry,Emmy</option>
-							<option>Biegelson,Daniel</option>
-							<option>Bilbo,Katheryn</option>
-							<option>Binette,Kori</option>
-							<option>Bishop,Lisa</option>
-							<option>Bix,Brandi</option>
-							<option>Black,Richard</option>
-							<option>Blackford,Benjamin</option>
-							<option>Blackford,Jeffrey</option>
-							<option>Bochart,Adam</option>
-							<option>Bolick,Raymond</option>
-							<option>Bond,Stancy aka queen</option>
-							<option>Bostwick,Chad</option>
-							<option>Bottone,Ethan</option>
-							<option>Bowlin,Kelsey</option>
-							<option>Bozarth,Rachel</option>
-							<option>Bradley,Jeff</option>
-							<option>Brady,Brandy</option>
-							<option>Breckenridge,Lisa</option>
-							<option>Britt,Karen</option>
-							<option>Brooks,Billy</option>
-							<option>Brown,Rhonda</option>
-							<option>Brown,Debra</option>
-							<option>Brust,Charles</option>
-							<option>Buck,Robert</option>
-							<option>Buerman,Margaret</option>
-							<option>Buford,Joshua</option>
-							<option>Butler,Loren</option>
-							<option>Cabrera,Leticia</option>
-							<option>Cagg,Kevin</option>
-							<option>Calfee,Stacey</option>
-							<option>Campbell,Luke</option>
-							<option>Campbell,Jamie</option>
-							<option>Campbell,Alisha</option>
-							<option>Campbell,James</option>
-							<option>Cangelose,Karen</option>
-							<option>Cannella,Matthew</option>
-							<option>Carreno,Jason</option>
-							<option>Carroll,Brian</option>
-							<option>Case,Denise</option>
-							<option>Casey,Kimberly</option>
-							<option>Cavanaugh,Kara</option>
-							<option>Cessna,Tamara</option>
-							<option>Chakraborty,Himadri</option>
-							<option>Chandler,Wayne</option>
-							<option>Chappell,Steven</option>
-							<option>Chen,Guangzhou</option>
-							<option>Chetti,Prasad</option>
-							<option>Chloupek,Brett</option>
-							<option>Choi,Jiwon</option>
-							<option>Chuang,Shih-Hsien</option>
-							<option>Claycomb,Kelly</option>
-							<option>Clemons,Jeromy</option>
-							<option>Cline,Keely</option>
-							<option>Cline,Cari</option>
-							<option>Cochenour,Jaclyn</option>
-							<option>Cole,Samantha</option>
-							<option>Combs,Crystal</option>
-							<option>Connoyer,Amanda</option>
-							<option>Cook,Matthew</option>
-							<option>Corson,Mark</option>
-							<option>Corson,Michelle</option>
-							<option>Coultas,Allia</option>
-							<option>Coulter,Carrie</option>
-							<option>Courts,Bari</option>
-							<option>Crawford,Kathy</option>
-							<option>Creason,Sarah</option>
-							<option>Crumley,Christina</option>
-							<option>Cullen,Gail</option>
-							<option>Daggs,Joy</option>
-							<option>Davis,Latonya</option>
-							<option>Davis,Julie</option>
-							<option>Davis-Black,Ashley</option>
-							<option>De,Ruma</option>
-							<option>DeGeorge,Kelsey</option>
-							<option>Dennis,Cathy</option>
-							<option>Dickey,Eric</option>
-							<option>Dieringer,Gregg</option>
-							<option>Dimmitt,Travis</option>
-							<option>Dimmitt,Elizabeth</option>
-							<option>Donaldson,Suzanne</option>
-							<option>Dorrel,Bryan</option>
-							<option>Driskill,Ronda</option>
-							<option>Drummond,Kristin</option>
-							<option>Dunnell,Rebecca</option>
-							<option>Eiswert,James</option>
-							<option>Ellsworth,Tina</option>
-							<option>Eloe,Nathan</option>
-							<option>Fadden,Stephen</option>
-							<option>Falke,Kathryn</option>
-							<option>Farnan,Shantel</option>
-							<option>Feick,Terra</option>
-							<option>Feiden,Darci</option>
-							<option>Fellah,Abdelaziz</option>
-							<option>Field,Richard</option>
-							<option>Fink,Kurtis</option>
-							<option>Foley,Nancy</option>
-							<option>Foose,Alice</option>
-							<option>Ford,Elyssa</option>
-							<option>Francis,Alisha</option>
-							<option>Fufa,Tolina</option>
-							<option>Funk,Gwenlyn</option>
-							<option>Gaines,Tiffanie</option>
-							<option>Gallagher,Sharon</option>
-							<option>Gallaher,John</option>
-							<option>Gallaher,Robin</option>
-							<option>Gamarra,Jessica</option>
-							<option>Garner,Sara</option>
-							<option>George,Barbara</option>
-							<option>George,Amber</option>
-							<option>Gilley,Dawn</option>
-							<option>Gordon,William</option>
-							<option>Gordon,Marc</option>
-							<option>Goswami,Arghya</option>
-							<option>Gracey,Jessica</option>
-							<option>Greathouse,John</option>
-							<option>Greenidge,Giselle</option>
-							<option>Gregory,Jennee</option>
-							<option>Gregory,Beth</option>
-							<option>Grotewiel,Lisa</option>
-							<option>Haberyan,Kurt</option>
-							<option>Haddock,Gregory</option>
-							<option>Haile,Brian</option>
-							<option>Hamilton,Amanda</option>
-							<option>Hamilton,Megan</option>
-							<option>Hansen,Greg</option>
-							<option>Hardee,Tom</option>
-							<option>Harris,Sean</option>
-							<option>Harris,Michael</option>
-							<option>Harrison,Taylor</option>
-							<option>Hart,Jeremy</option>
-							<option>Haughey,Joseph</option>
-							<option>Heddinger,Jill</option>
-							<option>Henderson,Michael</option>
-							<option>Hernandez Gonzalez,Claudia</option>
-							<option>Herrera,Bronson</option>
-							<option>Hesse,Brian</option>
-							<option>Hiatt,Rochelle</option>
-							<option>Hill,Heather</option>
-							<option>Hillard,Amy</option>
-							<option>Hindemith,Paul</option>
-							<option>Hittner,Kristen</option>
-							<option>Hobbs,Michael</option>
-							<option>Hodge,Kelly</option>
-							<option>Hoffmann,Kori</option>
-							<option>Holder,Christopher</option>
-							<option>Holder,Caleb</option>
-							<option>Holt,Tina</option>
-							<option>Holthaus,Catherine</option>
-							<option>Hoot,Charles</option>
-							<option>Houpe,Monic</option>
-							<option>Hull,Philip</option>
-							<option>Hung,Ming-Chih</option>
-							<option>Huse,Christina</option>
-							<option>Hustad,Vincent</option>
-							<option>Huston,Rachel</option>
-							<option>Hutcheson,Haley</option>
-							<option>Hux,Nichole</option>
-							<option>Immel,Patrick</option>
-							<option>Ingraham,Nissa</option>
-							<option>Islam,Rafiq</option>
-							<option>Jackson,Heather</option>
-							<option>Jacobson,Cris</option>
-							<option>James III,Clay</option>
-							<option>Janousek,Timothy</option>
-							<option>Jenkins,Michael</option>
-							<option>Jeter,Nathan</option>
-							<option>Jin,Chanwoo</option>
-							<option>Joachim,Bayo</option>
-							<option>Johnson,Matthew</option>
-							<option>Johnson,Julie</option>
-							<option>Johnson,Paula</option>
-							<option>Jones,Brenda</option>
-							<option>Jones,Kenneth</option>
-							<option>Jones,Kyle</option>
-							<option>Jorandby,Stephanie</option>
-							<option>Jornaz,Abdelmonaem</option>
-							<option>Katsion,John</option>
-							<option>Katzenberger,Colleen</option>
-							<option>Kauzlarich,Laura</option>
-							<option>Kenkel,Cindy</option>
-							<option>Kenkel,Tyler</option>
-							<option>Kershaw,Alicia</option>
-							<option>Kibler,Jacqueline</option>
-							<option>Kiene,David</option>
-							<option>Kim,Kyungjoong</option>
-							<option>Kirby,Melissa</option>
-							<option>Kirse,Nicholas</option>
-							<option>Kirt,Alex</option>
-							<option>Kisker,Brett</option>
-							<option>Knight-Beck,Ronald</option>
-							<option>Knowles,Tricia</option>
-							<option>Knudsen,Tessa</option>
-							<option>Koch,Robert</option>
-							<option>Komorech,Christopher</option>
-							<option>Konstantopoulos,Helen</option>
-							<option>Kotteti,Chandra Mouli Madhav</option>
-							<option>Kreizinger,Joseph</option>
-							<option>LaPann,Thomas</option>
-							<option>Lacy,Jacqueline</option>
-							<option>Lal,Ratan</option>
-							<option>Landhuis,Brad</option>
-							<option>Lane,Jesse</option>
-							<option>Langley,Sondra</option>
-							<option>Larson,Jared</option>
-							<option>Leach-Steffens,Lauren</option>
-							<option>Lech,Anne</option>
-							<option>Lee,Lawrence</option>
-							<option>Lehman,Brennan</option>
-							<option>Leiss,Jodie</option>
-							<option>Leiss,Damon</option>
-							<option>Lewis,Brenda</option>
-							<option>Lim,Chi Lo</option>
-							<option>Linville,Diana (best instructor ever)</option>
-							<option>Loe,Darin</option>
-							<option>Logan,Terrance</option>
-							<option>Loghry,Jacquelyn</option>
-							<option>Long,Terry</option>
-							<option>Ludwig,Stephen</option>
-							<option>Lynn,Brian</option>
-							<option>Lynn,Tamara</option>
-							<option>Magnuson,Matthew</option>
-							<option>Maguire,Maria</option>
-							<option>Magwire,Mackenzie</option>
-							<option>Malkawi,Ahmed</option>
-							<option>Mallett,Justin</option>
-							<option>Mardis,Lori</option>
-							<option>Masters,Brandon</option>
-							<option>Maxey,Gordon</option>
-							<option>Mayfield,Rachel</option>
-							<option>McAtee,Brooke</option>
-							<option>McBride,Michael</option>
-							<option>McCain,Jason</option>
-							<option>McCain,Amanda</option>
-							<option>McCollum,Benjamin</option>
-							<option>McCutcheon,Robert</option>
-							<option>McGhee,Jay</option>
-							<option>McGhee,Shannon</option>
-							<option>McGrory,Matthew</option>
-							<option>McLain,Paula</option>
-							<option>McNamara,Vicki</option>
-							<option>McNeese,Gina</option>
-							<option>Mei,Feixue</option>
-							<option>Meiners,Amanda</option>
-							<option>Merkel,Tammie</option>
-							<option>Merlot,Thomas</option>
-							<option>Merriott,Stephanie</option>
-							<option>Meyer,Austin</option>
-							<option>Meyer,Trevor</option>
-							<option>Meyer-Day,Shelly</option>
-							<option>Meziani,Mohammed</option>
-							<option>Miller,Todd</option>
-							<option>Miller,Kaitlyn</option>
-							<option>Miller,Michael</option>
-							<option>Miller,Kyle</option>
-							<option>Mobarok,Mohammad</option>
-							<option>Mohammadalizadehkorde,Milad</option>
-							<option>Moore,Rebecca</option>
-							<option>Mosier,Eric</option>
-							<option>Mudge,Kristen</option>
-							<option>Muhsam,Armin</option>
-							<option>Mulcahey,Shannan</option>
-							<option>Murphy,William</option>
-							<option>Myles Jackson,Miranda</option>
-							<option>Myllykangas,Susan</option>
-							<option>Nalbandov,Robert</option>
-							<option>Nally,Amy</option>
-							<option>Naramore,Sarah</option>
-							<option>Negaard,Doris</option>
-							<option>Nickerson,Jeffrey</option>
-							<option>Niraula,Abha</option>
-							<option>O'Gwin,Chase</option>
-							<option>Oeth,Kimberly</option>
-							<option>Offutt,Samuel</option>
-							<option>Olasz,Ildi</option>
-							<option>Olson,Anthony</option>
-							<option>Oyotode Epse Adebile,Renee</option>
-							<option>Palacios Perez,Jose</option>
-							<option>Parsons,Vanessa</option>
-							<option>Patzius,Billi</option>
-							<option>Pavlik,Kimberly</option>
-							<option>Pearl,Matthew</option>
-							<option>Pelkey,Melissa</option>
-							<option>Pelton,Catrina</option>
-							<option>Pence,Michelle</option>
-							<option>Perez-Hernandez,Oscar</option>
-							<option>Peterson,Andy</option>
-							<option>Peve,Tucker</option>
-							<option>Pham,Bao</option>
-							<option>Phillips,Stephanie</option>
-							<option>Pickering,Bryan</option>
-							<option>Pope,John</option>
-							<option>Potter,Alexandra</option>
-							<option>Prabhakar,Sanjay</option>
-							<option>Pulley,Tina</option>
-							<option>Qin,Zhengrui</option>
-							<option>Quinlin,Joseph</option>
-							<option>Rabel Riley,Shelley</option>
-							<option>Rains,Sierra</option>
-							<option>Raisor,Jodi</option>
-							<option>Reed,Jennifer</option>
-							<option>Reynolds,Stephani</option>
-							<option>Reynolds,Adrienne</option>
-							<option>Rich,Gregory</option>
-							<option>Richards,Janet</option>
-							<option>Richardson,William</option>
-							<option>Richardson,David</option>
-							<option>Richardson,James</option>
-							<option>Roberts,Kaleatha</option>
-							<option>Robertson,Julie</option>
-							<option>Rockwood,Wesley</option>
-							<option>Roe,Debra</option>
-							<option>Rolfes,Luke</option>
-							<option>Rooney,Roxanne</option>
-							<option>Rosewell,Mark</option>
-							<option>Rourke,Brenda</option>
-							<option>Royal,Kevin</option>
-							<option>Runyon,Darla</option>
-							<option>Russell,Doug</option>
-							<option>Ryan,Brenda</option>
-							<option>Rytting,Jennifer</option>
-							<option>Sadek,Jawad</option>
-							<option>Sareh,Narges</option>
-							<option>Satchell,Jason</option>
-							<option>Schaefer,Charles</option>
-							<option>Schairer-Kessler,Cynthia</option>
-							<option>Schieber,Matthew</option>
-							<option>Schmalzried Schmidt,RaLynn</option>
-							<option>Scofield,Devlin</option>
-							<option>Seeger,Victoria</option>
-							<option>Seipel,Sandy</option>
-							<option>Shamberger,Robin</option>
-							<option>Sheil,Meghan</option>
-							<option>Sherman,Madeline</option>
-							<option>Sherwood,Audra</option>
-							<option>Shi,Tiebing</option>
-							<option>Shin,Kyoung-Ho</option>
-							<option>Siela,Kimberly</option>
-							<option>Simon,Donald</option>
-							<option>Sipling,Sarah</option>
-							<option>Sivils,Sara</option>
-							<option>Skinner,H. Machelle</option>
-							<option>Slaughter,Debra</option>
-							<option>Smith,Linda</option>
-							<option>Smith,Susan</option>
-							<option>Smothers,Callie</option>
-							<option>Sollars,Dustin</option>
-							<option>Somers,Camryn</option>
-							<option>Sonnenmoser,Richard</option>
-							<option>Sorrick,Melissa</option>
-							<option>Sparks,Sally</option>
-							<option>Sprague,Stuart</option>
-							<option>Sproles,Laramie</option>
-							<option>Spurlock,Michael</option>
-							<option>Stanley,Jane</option>
-							<option>Steggall,Sandra</option>
-							<option>Stevens,Samantha</option>
-							<option>Stoecklein,Ryan</option>
-							<option>Stoecklein,Heather</option>
-							<option>Strickland,Kathryn</option>
-							<option>Strickland,Ashley</option>
-							<option>Striplin,Alyssa</option>
-							<option>Stutzman,Lauren</option>
-							<option>Suiter,Taylor</option>
-							<option>Sutton,William</option>
-							<option>Swafford,Brian</option>
-							<option>Swink,Brian</option>
-							<option>Symonds,Matthew</option>
-							<option>Tabor,Kamala</option>
-							<option>Tapps,Tyler</option>
-							<option>Tapps,Christina</option>
-							<option>Tasi,Csilla</option>
-							<option>Taylor,Christina</option>
-							<option>Taylor,Sara</option>
-							<option>Taylor,Alexander</option>
-							<option>Tellez,Naomi</option>
-							<option>Ternus,Dana</option>
-							<option>Thompson,Patricia</option>
-							<option>Thornsberry,Jeffry</option>
-							<option>Thornsberry,Gretchen</option>
-							<option>Tobin,Malinda</option>
-							<option>Tomasso,Joseph</option>
-							<option>Toomey,Deborah</option>
-							<option>Toomey,Richard</option>
-							<option>Tott,Katherine</option>
-							<option>Trantham,Austin</option>
-							<option>Trautz,Michael</option>
-							<option>Trussell,Shelby</option>
-							<option>Tu,Zhiling</option>
-							<option>Tuell,Jacob</option>
-							<option>Turner,Amilee</option>
-							<option>Uhl,Jonathan</option>
-							<option>Vaughn,Corey</option>
-							<option>Veasey,Michele</option>
-							<option>Veasey,Robert</option>
-							<option>Velarde,Rachel</option>
-							<option>Ventura,Aprel</option>
-							<option>Verbick,Tabatha</option>
-							<option>Vinzant,Dennis</option>
-							<option>Vlieger,David</option>
-							<option>Vogelaar,Robert</option>
-							<option>Voss,Robert</option>
-							<option>Walker,James</option>
-							<option>Walker,Matthew</option>
-							<option>Walker,Megan</option>
-							<option>Wall,Timothy</option>
-							<option>Wall,Jennifer</option>
-							<option>Wanorie,Tekle</option>
-							<option>Warner,Patricia</option>
-							<option>Watkins,Veronica</option>
-							<option>Watkins,Clifton</option>
-							<option>Westbrook,Samuel</option>
-							<option>White,Patricia</option>
-							<option>White,Nicholas</option>
-							<option>White,Chase</option>
-							<option>Whitlow,Jan</option>
-							<option>Wideman,Julia</option>
-							<option>Wilcox,Kenton</option>
-							<option>Williams,Marlie</option>
-							<option>Williamson,Stacy</option>
-							<option>Wilmes,Kelli</option>
-							<option>Wilson,Amber</option>
-							<option>Wilson,Kylie</option>
-							<option>Winslow,Denise</option>
-							<option>Woerth,Amy</option>
-							<option>Wood,Sandra</option>
-							<option>Wood,Jayme</option>
-							<option>Wood,Sue</option>
-							<option>Wu,Yi-Hwa</option>
-							<option>Wurst,Allison</option>
-							<option>Yang,Fan</option>
-							<option>Young,Natasha</option>
-							<option>Young,Christine</option>
-							<option>Zarybnicky,Angela</option>
-							<option>Zech,Lori</option>
-							<option>Zeliff,Nancy</option>
-							<option>Zhao,Yu</option>
-							<option>Zrust,Adam</option>
-							<option>Zupancic,Giavanna</option>
-							</select>
-					</fieldset>
+								<label for="part">Part of Term</label>
+								<select name="part" id="part">
+									<option>All Options</option>
+									<option>Block 1 & 2</option>
+									<option>Block 2 & 3</option>
+									<option>7-Week Block 1</option>
+									<option>7-Week Block 2</option>
+									<option>First Block</option>
+									<option>Full Term</option>
+									<option>Intersession</option>
+									<option>Off-Schedule</option>
+									<option>Online Professional Block 1</option>
+									<option>Online Professional Block 2</option>
+									<option>Second Block</option>
+									<option>Third Block</option>
+								</select>
 
-					<h3><b>Search by Course Number Only</b></h3>
+								<label for="attribute">Course Attribute</label>
+								<select name="attribute" id="attribute">
+									<option>All Course Attributes</option>
+									<option>AMNH Science Seminar</option>
+									<option>Blended Course</option>
+									<option>China - International Location</option>
+									<option>Competency-Based</option>
+									<option>Fellows-Independence Sch District</option>
+									<option>HS Dual Credit</option>
+									<option>HS Dual Credit - Web Course</option>
+									<option>IR Digital Literacy</option>
+									<option>IR University Seminar</option>
+									<option>Kansas City MU Doctoral Prog</option>
+									<option>MU Doctoral Program</option>
+									<option>Marine Science Gulf Coast</option>
+									<option>NW Core Civics</option>
+									<option>NW Core Fine Arts</option>
+									<option>NW Core Humanities</option>
+									<option>NW Core Life Sciences</option>
+									<option>NW Core Literature</option>
+									<option>NW Core Mathematical Sciences</option>
+									<option>NW Core Oral Communication</option>
+									<option>NW Core Physical Sciences</option>
+									<option>NW Core Social/Behavioral Sci</option>
+									<option>NW Core Written Communication</option>
+									<option>Northwest-Kan City - Web Course</option>
+									<option>Northwest Kansas City</option>
+									<option>Online Professional - Block 1</option>
+									<option>Online Professional - Block 2</option>
+									<option>Prof Dev - Kansas City</option>
+									<option>Prof Dev - RPDC</option>
+									<option>Professional Development</option>
+									<option>Student Abroad</option>
+									<option>Student Abroad Exchange</option>
+									<option>Web - Online Only Student</option>
+									<option>Web Course</option>
+								</select>
 
-					<fieldset>
-						<label for="course#">Enter Course Number:</label>
-							<input type="text" name="course#" id="course#">
-					</fieldset>
+								<label for="instructor">Instructor</label>
+								<select name="instructor" id="instructor">
+									<option>All Instructors</option>
+									<option>Abernathy,Deborah</option>
+									<option>Abington,Casey</option>
+									<option>Adam,Peter</option>
+									<option>Adanin,Kristina</option>
+									<option>Adkins,Joni</option>
+									<option>Adkins,Kimberly</option>
+									<option>Akins,Robyn</option>
+									<option>Akkouche,Dyan</option>
+									<option>Al Ali,Ali</option>
+									<option>Alabasi,Karima</option>
+									<option>Alexander,Kristina</option>
+									<option>Allen,Michelle</option>
+									<option>Alobaidi,Isam</option>
+									<option>Alston,Barbara</option>
+									<option>Anderson,Jessica</option>
+									<option>Anderson,Bradley</option>
+									<option>Anderson,Jessica</option>
+									<option>Anderson,Kyle</option>
+									<option>Anderson,Timothy</option>
+									<option>Aramjoo,Ashley</option>
+									<option>Arens,Corinne</option>
+									<option>Armstrong,Robert</option>
+									<option>Arndt,Robert</option>
+									<option>Atkinson,Allison</option>
+									<option>Bai,Hua</option>
+									<option>Baker,Jill</option>
+									<option>Baker,Robert</option>
+									<option>Bandi,Ajay</option>
+									<option>Barner,Natalie</option>
+									<option>Barr,Rodney</option>
+									<option>Barton,Amy</option>
+									<option>Bateman,Michelle</option>
+									<option>Baugher,Johannah</option>
+									<option>Bauman,Darbi</option>
+									<option>Bax,Matthew</option>
+									<option>Beck,Shandy</option>
+									<option>Biegelson,Daniel</option>
+									<option>Bilbo,Katheryn</option>
+									<option>Black,Richard</option>
+									<option>Bochart,Adam</option>
+									<option>Bond,Stancy aka queen</option>
+									<option>Bostwick,Chad</option>
+									<option>Bowlin,Kelsey</option>
+									<option>Campbell,Luke</option>
+									<option>Chappell,Steven</option>
+									<option>Cline,Cari</option>
+									<option>Daggs,Joy</option>
+									<option>Dickey,Eric</option>
+									<option>Dimmitt,Travis</option>
+									<option>Gallaher,John</option>
+									<option>Gracey,Jessica</option>
+									<option>Greenidge,Giselle</option>
+									<option>Hoffmann,Kori</option>
+									<option>Joachim,Bayo</option>
+									<option>Katsion,John</option>
+									<option>LaPann, Thomas</option>
+									<option>Linville, Diana (best instructor ever)</option>
+									<option>Nathan, Eloe</option>
+									<option>Rourke, Brenda</option>
+									</select>
+							</fieldset>
 
-					<h3><b>Search by Northwest Core Only</b></h3>
+						<input type="submit" id="submit" value="Get Class Openings" class="btn">
 
-					<fieldset>
-						<label for="nwcore">Enter Northwest Core:</label>
-							<input type="text" name="nwcore" id="nwcore">
-					</fieldset>
+					</form>
 
-					<input type="submit" id="submit" value="Get Class Openings" class="btn">
-				</form>
+					<p>Note: Publication of the trimester Class Schedule/Class Openings should not be considered a guarantee, and are subject to change based on availability of resources and programmatic needs.</p>
 
-			</div>
+				</div>
 
-				<p>Note: Publication of the trimester Class Schedule/Class Openings should not be considered a guarantee, and are subject to change based on availability of resources and programmatic needs.</p>
-				<dl>Additional Sources:
+				<dl>Additional Sources
 					<dd><a href="textbookInfo.html">Textbook Information</a></dd>
 					<dd><a href="index.html">When Can I Enroll?</a></dd>
 					<dd><a href="index.html">Preregistration Advisement Sheet</a></dd>
 				</dl>
+
+		 </article>
+
+		<div>
+			<article class="quicksearch">
+				<form id="classopeningsform2"><!-- Start Form -->
+
+						<h3>Quick Search Options</h3>
+
+						<fieldset>
+							<label for="course#">Course Number:</label>
+								<input type="text" name="course#" id="course#" max="5">
+								<input type="submit" id="submit2" value="Submit" class="btn">
+						</fieldset>
+
+						<fieldset>
+							<label for="nwcore">Northwest Core Category:</label>
+								<input type="text" name="nwcore" id="nwcore">
+								<input type="submit" id="submit2" value="Submit" class="btn">
+						</fieldset>
+
+				</form>
+			</article>
+		</div>
+
 		</main>
 
+
 		<!-- Use the footer area to add webpage footer content -->
+		<!--
 		<footer>
 
 		  <div class="copyright">
 		      <p> &copy; Copyright 2022. All Rights Reserved. </p>
 		      <p> This Site is Made for Educational Purposes Only. </p>
 		  </div>
-		  <!-- May or may not use, depends on the time or need-->
 		  <div class="totopbutton">
-		    <a href="classOpenings.html">
-					<!--change 'index.html to the specific page name for each different footer'-->
-					<img src="images\nwpaw.png" alt="To Top of Page Catpaw Button" height="70" width="70"></a>
+		    <a href="template.html">
+					<img src="images/nwpaw.png" alt="To Top of Page Catpaw Button" height="70" width="70"></a>
 		  </div>
 
 		</footer>
-
+-->
 	</div>
+
 	<script src="scripts/script.js"></script>
 </body>
 </html>

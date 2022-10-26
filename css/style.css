@@ -136,19 +136,121 @@ main h2 {
   color: #000;
 }
 
-main h3 {
+main h3, form h3 {
   font-family: sans-serif;
-  font-size: .8em;
-  font-weight: normal;
+  font-size: 1em;
+  font-weight: 400;
   color: #000;
-}
-
-/* Style rules for forms */
-
-form {
   padding-left: 30px;
 }
 
+p {
+  font-family: sans-serif;
+  font-size: .8em;
+  padding-left: 30px;
+}
+
+dl {
+  font-family: sans-serif;
+  font-size: .8em;
+  padding-left: 50px;
+}
+
+
+/* trying to put two forms next to eachother
+
+#classopeningsform1 {
+  padding-left: 50px;
+  width: 650px;
+}
+
+*/
+
+article p {
+  padding-top: 80px;
+}
+
+article.criteria {
+  float: left;
+  width: 50%;
+  margin-right: 50px;
+}
+
+article.quicksearch {
+  margin-top: 78px;
+  float: left;
+  width: 40%;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: medium;
+}
+
+#classopeningsform1 select {
+  width: 99%;
+  display: inline-block;
+  padding: 3px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+#classopeningsform1 label {
+  display: block;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  color: #fff;
+  margin-left: auto;
+}
+
+#classopeningsform1 fieldset {
+  background-color: #83B9AB;
+  border-radius: 5px;
+  margin: 30px;
+  padding-bottom: 25px;
+}
+
+
+
+input[type=button], input[type=submit2] {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100px;
+}
+
+input[type=button], input[type=submit] {
+  background-color: #fff;
+  border-radius: 5px;
+  float: right;
+  margin-top: 5px;
+}
+
+
+
+#classopeningsform2 input[type=text] {
+  margin-left: auto;
+  padding: 3px;
+  width: 76%;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+#classopeningsform2 label {
+  display: block;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  color: #fff;
+}
+
+#classopeningsform2 fieldset {
+  border: none;
+  border-radius: 5px;
+  padding-bottom: 25px;
+  background-color: #006448;
+  margin: 30px;
+}
 
 
 /* Style rules for mobile viewport */
@@ -240,8 +342,19 @@ nav a.menu-icon {
 
 
 /*Style rules for footer content*/
-footer {
 
+/*
+#footer {
+  background: #006448;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  padding: 3px;
+  position: absolute;
+}
+*/
+
+footer {
   background-color: #006448;
   height: 8em;
   margin-top: 19em;
@@ -263,4 +376,6 @@ footer .totopbutton {
   background-color: #006448;
   padding: 2% 2%;
 }
+
+
 }
