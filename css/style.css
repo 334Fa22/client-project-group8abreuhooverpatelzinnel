@@ -64,6 +64,9 @@ div.header {
 
     /*online class openings form content*/
 
+article.onlineclassopenings {
+  margin-top: 3%;
+}
 
 #onlineclassopeningform select, input {
   margin-left: 40px;
@@ -79,21 +82,24 @@ div.header {
 
 article fieldset {
   border-style: none;
-  padding-right: 40%;
 }
 
 div.key {
   padding-left: 20px;
 }
 
+.key p {
+  padding-top: 0%;
+}
+
 article.onlineclassopenings  {
-  width: 50%;
+  width: 40%;
   border-radius: 35px;
   border-style: solid;
 }
 
 aside img {
-  
+
 }
     /*class openings form content*/
 
