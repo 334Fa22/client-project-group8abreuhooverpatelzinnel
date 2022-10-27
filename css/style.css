@@ -3,7 +3,7 @@ Author: Group 8
 File Name: style.css
 */
 
-body, header, nav, main, h1 {
+body, header, nav, main, h1, footer {
   margin: 0;
   padding: 0;
   border: 0;
@@ -211,6 +211,7 @@ input[type=button] {
     grid-template-columns: auto auto auto;
     gap: 25px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .frame {
@@ -398,6 +399,10 @@ nav a .menu-icon {
 
 /*Style rules for footer content*/
 
+footer {
+  background-color: #006448;
+}
+
 footer .copyright {
   font-size: 1em;
   text-align: left;
@@ -405,7 +410,8 @@ footer .copyright {
   float:right;
   width:90%;
   height: 5em;
-  padding-top: 1em;
+  padding-top: 2.2em;
+  background-color: #006448;
 }
 
 footer .totopbutton {
