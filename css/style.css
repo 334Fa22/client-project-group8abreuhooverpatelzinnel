@@ -313,6 +313,36 @@ article.quicksearch h3 {
   font-weight: 500;
 }
 
+#checkAppform label{
+  display: inline;
+  font-family: sans-serif;
+  font-size: .8em;
+  font-weight: 400;
+  color: #fff;
+  padding: 0;
+}
+#checkAppform  input[type=text] {
+  margin: auto;
+  width: 45%;
+  border-radius: 5px;
+  border: none;
+}
+
+#checkAppform .btn3 {
+  font-size: .8em;
+  float: right;
+  margin: auto;
+}
+
+#checkAppform fieldset {
+  width: 95%;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #006448;
+  margin: 18px;
+}
+
 /* Style rules for mobile viewport */
 
   /* Style rule for header content */
