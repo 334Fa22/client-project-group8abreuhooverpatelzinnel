@@ -418,6 +418,29 @@ article.quicksearch h3 {
    color: #000;
  }
 
+/*Style rules specific to textbook info forms*/
+
+#textbook {
+    padding-left: 30px;
+}
+#space {
+  padding: 10px;
+}
+
+#textbook .btn2 {
+  float: left;
+  background-color: #006448;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+  margin-right: -80px;
+}
+
+#pspacing {
+  margin-top: 65px;
+}
 
 /* Style rules for mobile viewport */
 
