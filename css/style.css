@@ -420,6 +420,19 @@ article.quicksearch h3 {
 
 /*Style rules specific to textbook info forms*/
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* Courtesy of W3Schools*/
+
 #textbook {
     padding-left: 30px;
 }
@@ -435,11 +448,30 @@ article.quicksearch h3 {
   font-weight: bold;
   border: none;
   margin-top: 20px;
-  margin-right: -80px;
+  margin-left: 100px;
 }
 
 #pspacing {
   margin-top: 65px;
+}
+
+#or {
+  color: #006448;
+  margin-left: 140px;
+}
+
+.horizontal-line {
+  background-color: #006448;
+  width: 40%;
+  height: 3px;
+  padding-left: 0px;
+}
+
+/* Style rules for Accessibility Menu*/
+
+.access {
+    font-size: 2em;
+    padding-left: 30px;
 }
 
 /* Style rules for mobile viewport */
@@ -503,11 +535,13 @@ header {
 
 
 /*Style rules for hamburger menu*/
+
 nav a {
   text-decoration: none;
   color: #fff;
   background-color: #006448;
   display: block;
+  padding: 6px;
 }
 
 nav ul {

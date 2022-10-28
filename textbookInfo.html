@@ -46,7 +46,8 @@
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
 
-								<h1> Textbook & Supplemental Information </h1><br>
+								<h1> Textbook & Supplemental Information </h1>
+								<div class="horizontal-line"></div><br>
 
 <!-- Select Term Form -->
 					<form id="textbook">
@@ -66,9 +67,9 @@
 
 <!-- Search by CRN Form -->
 						<label for="crn"> Search by Course Number (5 Digit): </label>
-						<input type="number" name="crn" id="crn" max="5"> <!-- Make sure the max length thing works, only 5 digits allowed, In CSS, "input type="number" {display: none;}" -->
+						<input type="number" name="crn" id="crn" min="00000" max="99999"> 
 
-<!--INSERT "OR" TEXT HERE--> <h3> --OR-- </h3>
+<!--INSERT "OR" TEXT HERE--> <div id="or"> <h2> OR </h2> </div>
 
 <!-- Select Department Form -->
 						<label for="departselect"> Select Department (REQUIRED): </label>
@@ -146,12 +147,14 @@
 
 						<div id="pspacing">
 								<h1> A Word About Textbooks... </h1>
+								<div class="horizontal-line"></div>
 
 										<p> The textbooks listed for each course are not guaranteed to be all inclusive but to give you some idea of the textbook(s) that will be used for the selected course(s) that you are viewing.</p>
 										<p>Due to faculty changes and other factors the textbooks and required materials might change prior to classes beginning. Some courses require purchased materials to accompany the rental materials. To view required textbooks/materials that will need to be purchased use the links below. </p>
 										<p> Online Professional (OP) students can find your textbooks with the Online Professional Textbook Finder </p>
 
 								<h1> Need Textbook Help? </h1>
+								<div class="horizontal-line"></div>
 
 										<p> If you have any questions regarding your textbooks please feel free to contact Textbook Services. You can also reach Textbook Services by phone at 660.562.1150</p>
 										<p> For more information about Textbook Services, visit our website: https://www.nwmissouri.edu/textbooks.htm</p>
