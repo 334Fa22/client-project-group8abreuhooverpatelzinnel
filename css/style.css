@@ -59,6 +59,9 @@ div.header {
   float:right;
   margin-top: 0;
 }
+
+
+
 /*Style rules for footer*/
 
 .footer {
@@ -475,7 +478,11 @@ input[type=number] {
 }
 
 /* Style rules for mobile viewport */
-
+@media screen and (min-width: 480px), print {
+  #canvasscreen {
+    display: none;
+  }
+}
   /* Style rule for header content */
   header {
     top: 0;
@@ -582,6 +589,4 @@ footer .totopbutton {
   text-align: center;
   background-color: #006448;
   padding: 2% 2%;
-}
-
 }
