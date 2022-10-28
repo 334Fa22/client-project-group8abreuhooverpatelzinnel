@@ -398,10 +398,6 @@ article.quicksearch h3 {
     border-color: #000;
     padding-right: 50px;
     margin-bottom: 50px;
-
-
-
-
   }
 
   #headings h3{
@@ -518,12 +514,56 @@ input[type=number] {
   display: none;
 }
 
+/* Media Query for Mobile Viewport*/
+@media screen and (min-width: 480px){
+
+/* Mobile: Home Page Style*/
+.homegrid {
+    display: grid;
+    grid-template-columns: none;
+}
+
+.footer-space {
+  height: 250px;
+}
+
+/*Mobile: Footer Style*/
+footer .copyright{
+  text-align: center;
+  color: #fff;
+}
+
+footer .totopbutton {
+  text-align: center;
+  padding-bottom: 4px;
+}
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
 
+/*Tablet: Home Page Style*/
+  .homegrid {
+      display: grid;
+      grid-template-columns: auto auto;
+  }
 
+/*Tablet: Footer style*/
+  footer .copyright{
+    float: right;
+    color: #fff;
+    padding-right: 20px;
+    margin-right: 20px;
+  }
 
+  footer .totopbutton {
+    text-align: left;
+    padding-bottom: 4px;
+  }
 
+footer {
+  padding: 20px;
+}
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
@@ -565,28 +605,36 @@ nav a .menu-icon {
   color: white;
   font-size: 3.5em;
 }
-
+.homegrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 
 /*Style rules for footer content*/
 
+/*Style rules for footer*/
+
+.footer {
+  position:absolute;
+  width: 100%;
+  background-color: #006448;
+}
+
+.footer-space {
+  height: 350px;
+}
+
+.footer-space-openings {
+  height: 715px;
+}
+
 footer {
-  background-color: #006448;
+font-size: .8em;
+position:absolute;
+bottom: 0;
+width: 100%;
+background-color: #006448;
 }
 
-footer .copyright {
-  font-size: 1em;
-  text-align: left;
-  color: #fff;
-  float:right;
-  width:90%;
-  height: 5em;
-  padding-top: 3.5em;
-  background-color: #006448;
-}
 
-footer .totopbutton {
-  float: left;
-  text-align: center;
-  background-color: #006448;
-  padding: 2% 2%;
 }
