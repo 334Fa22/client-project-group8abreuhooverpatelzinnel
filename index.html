@@ -14,7 +14,6 @@
 	<style> body {background-image: url("images/campusbackgroundshot.jpg"); background-color: #e6e6e6; background-repeat: no-repeat; background-size: cover;} </style>
 </head>
 <body>
-	<div id="container">
 
 		<!-- Use the header area for the website name or logo -->
 		<header>
@@ -46,6 +45,8 @@
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
 
+			<div class="page-wrap">
+
 			<div class="homegrid">
 
 					<figure class="frame">
@@ -69,7 +70,7 @@
 					</figure>
 
 					<figure class="frame">
-							<a href="appStatus.html"> <img src="images/Application.jpg" alt="Check Application Status" height="288" width="268"> </a>
+							<a href="checkappstatus.html"> <img src="images/Application.jpg" alt="Check Application Status" height="288" width="268"> </a>
 							<figcaption class="hometext"> Check Application Status </figcaption>
 					</figure>
 
@@ -84,7 +85,7 @@
 					</figure>
 
 					<figure class="frame">
-							<a href="OnlineClass.html"> <img src="images/OnlineOpenings.jpg" alt="Online Class Openings" height="288" width="268"> </a>
+							<a href="onlineclassopenings.html"> <img src="images/OnlineOpenings.jpg" alt="Online Class Openings" height="288" width="268"> </a>
 							<figcaption class="hometext"> Online Class Openings </figcaption>
 					</figure>
 
@@ -103,12 +104,19 @@
 							<figcaption class="hometext"> Transfer Equivalencies </figcaption>
 					</figure>
 
+					<figure class="frame">
+							<a href="accessibility.html"> <img src="images/accessmode.jpg" alt="Accessibility Mode" height="288" width="268"> </a>
+							<figcaption class="hometext"> Accessibility Mode </figcaption>
+					</figure>
+
 			</div>
 
+		</div>
 		</main>
-	</div>
+
 		<!-- Use the footer area to add webpage footer content -->
 
+		<div class="footer">
 		<footer>
 		  <div class="copyright">
 		      <p> &copy; Copyright 2022. All Rights Reserved. </p>
@@ -121,9 +129,8 @@
 		  </div>
 
 		</footer>
+	</div>
 
 	<script src="scripts/script.js"></script>
 </body>
 </html>
-
-<!-- Make sure to set background image in css for homepage only, 3 column layout for the page tiles-->

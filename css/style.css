@@ -59,8 +59,24 @@ div.header {
   float:right;
   margin-top: 0;
 }
+/*Style rules for footer*/
+
+.footer {
+  position:absolute;
+  width: 100%;
+  background-color: #006448;
+}
+
+footer {
+font-size: .8em;
+position:absolute;
+bottom: 0;
+width: 100%;
+background-color: #006448;
+}
 
 /* Style rules for form content*/
+
 
     /*online class openings form content*/
 
@@ -211,7 +227,7 @@ input[type=button] {
     grid-template-columns: auto auto auto;
     gap: 25px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 180px;
 }
 
 .frame {
@@ -440,7 +456,7 @@ footer .copyright {
   float:right;
   width:90%;
   height: 5em;
-  padding-top: 2.2em;
+  padding-top: 3.5em;
   background-color: #006448;
 }
 
