@@ -67,6 +67,14 @@ div.header {
   background-color: #006448;
 }
 
+.footer-space {
+  height: 350px;
+}
+
+.footer-space-openings {
+  height: 715px;
+}
+
 footer {
 font-size: .8em;
 position:absolute;
