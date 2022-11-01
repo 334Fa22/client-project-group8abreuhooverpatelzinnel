@@ -136,7 +136,7 @@ article fieldset {
 }
 
 #classopeningsform1 select {
-  width: 70%;
+  width: 74%;
 }
 
 #classopeningsform1 .btn2, #onlineclassopeningform .btn2 {
@@ -155,7 +155,7 @@ article fieldset {
 #classopeningsform1 fieldset {
   background-color: #fff;
   border: none;
-  margin-left: 30px;
+  margin-left: 20px;
   padding-bottom: 25px;
 }
 
@@ -295,6 +295,16 @@ article.criteria h3, article.onlineclassopenings h3 {
   margin-left: 30px;
 }
 
+article.criteria dl {
+  margin-top: 78px;
+  padding-bottom: 10px;
+  float: right;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color: #C6DDD7;
+}
+
 article.quicksearch {
   margin-top: 78px;
   padding-right: 40px;
@@ -324,6 +334,12 @@ article.quicksearch h3 {
     top: 0;
     background-color: #006448;
     padding-left: 10px;
+    position: -webkit-sticky;
+    position:sticky;
+  }
+
+  div.headerimg {
+    margin: 0 auto;
   }
 
   /* Style rules for hamburger menu */
