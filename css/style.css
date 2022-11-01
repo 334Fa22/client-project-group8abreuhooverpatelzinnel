@@ -334,8 +334,6 @@ article.quicksearch h3 {
     top: 0;
     background-color: #006448;
     padding-left: 10px;
-    position: -webkit-sticky;
-    position:sticky;
   }
 
   div.headerimg {
