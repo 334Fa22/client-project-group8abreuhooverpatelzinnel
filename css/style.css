@@ -363,7 +363,15 @@ article.quicksearch h3 {
   font-weight: 500;
 }
 
-/*Style rules specific to textbook info forms*/
+/*Style rules specific to textbook info*/
+
+.external-link {
+  color: #006448;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*Textbook Info Forms Style*/
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
