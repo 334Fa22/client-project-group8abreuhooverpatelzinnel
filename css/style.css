@@ -197,7 +197,7 @@ article fieldset {
   padding-bottom: 25px;
 }
 
-input[type=submit], input[type=search] {
+input[type=submit], input[type=search], input[type=number] {
   display: inline;
   background-color: #fff;
   border-radius: 5px;
@@ -226,7 +226,7 @@ input[type=button] {
   padding: 0;
 }
 
-#classopeningsform2 input[type=text] {
+#classopeningsform2 input[type=text], #classopeningsform2 input[type=number] {
   margin: auto;
   width: 30%;
   border-radius: 5px;
