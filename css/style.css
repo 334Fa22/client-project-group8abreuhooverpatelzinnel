@@ -64,7 +64,7 @@ div.header {
   width:70px;
   margin-top: -100px;
   font-size: 40px;
-  padding-left: 30px;
+  padding-left: 55px;
   margin-right: 0;
 }
 
@@ -104,14 +104,12 @@ background-color: #006448;
 
     /*online class openings form content*/
 
-
-
 article fieldset {
   border-style: none;
 }
 
 .key {
-  width: 70%;
+  width: 87%;
   margin-top: 10%;
   margin-left: 100px;
   border: none;
@@ -213,10 +211,16 @@ input[type=button] {
   font-size: .8em;
 }
 
+#classopeningsform2 {
+  background-color: #C6DDD7;
+  border-radius: 5px;
+  height: 230px;
+}
+
 #classopeningsform2 label {
   display: inline;
   font-family: sans-serif;
-  font-size: .8em;
+  font-size: 1em;
   font-weight: 400;
   color: #fff;
   padding: 0;
@@ -224,24 +228,26 @@ input[type=button] {
 
 #classopeningsform2 input[type=text] {
   margin: auto;
-  width: 52%;
+  width: 30%;
   border-radius: 5px;
   border: none;
 }
 
 #classopeningsform2 .btn3 {
-  font-size: .8em;
+  font-size: .9em;
   float: right;
   margin: auto;
 }
 
 #classopeningsform2 fieldset {
-  width: 95%;
+  width: 82%;
+  float: right;
   border: none;
   border-radius: 5px;
-  padding: 12px;
+  padding: 10px;
   background-color: #006448;
   margin: 18px;
+  margin-bottom: 0;
 }
 
 /* Style rules for home page menu*/
@@ -299,7 +305,7 @@ main h2 {
 
 main h3, form h3 {
   font-family: sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   color: #000;
   padding-left: 30px;
@@ -307,14 +313,19 @@ main h3, form h3 {
 
 p {
   font-family: sans-serif;
-  font-size: .8em;
+  font-size: 1em;
   padding-left: 30px;
 }
 
 dl {
   font-family: sans-serif;
+  font-size: 1em;
+}
+
+dd {
   font-size: .8em;
-  padding-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 article p {
@@ -335,16 +346,6 @@ article.criteria h3, article.onlineclassopenings h3 {
   margin-left: 30px;
 }
 
-article.criteria dl {
-  margin-top: 78px;
-  padding-bottom: 10px;
-  float: right;
-  width: 50%;
-  border: none;
-  border-radius: 5px;
-  background-color: #C6DDD7;
-}
-
 article.quicksearch {
   margin-top: 78px;
   padding-right: 40px;
@@ -352,15 +353,22 @@ article.quicksearch {
   width: 30%;
   border: none;
   border-radius: 5px;
-  background-color: #C6DDD7;
 }
 
 article.quicksearch h3 {
   margin-left: -13px;
   margin-bottom: -10px;
-  margin-top: 10px;
+  margin-top: -15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 1.15em;
   font-weight: 500;
+}
+
+article.quicksearch dl {
+  border-radius: 5px;
+  background-color: #C6DDD7;
+  padding-bottom: 30px;
 }
 
 /*Style rules specific to textbook info*/
@@ -438,6 +446,10 @@ input[type=number] {
 
   .footer-space {
     height: 250px;
+  }
+
+  .footer-space-openings {
+    height: 1000px;
   }
 
   /*Mobile: Footer Style*/
@@ -569,16 +581,20 @@ nav a .menu-icon {
 }
 
 .footer-space {
-  height: 350px;
+  height: 300px;
+}
+
+.footer-space-openings-2 {
+  height: 600px;
 }
 
 .footer-space-openings {
-  height: 845px;
+  height: 900px;
 }
 
 footer {
-font-size: .8em;
-position:absolute;
+font-size: .9em;
+position: absolute;
 bottom: 0;
 width: 100%;
 background-color: #006448;
@@ -645,9 +661,6 @@ background-color: #006448;
     padding-right: 50px;
     margin-bottom: 50px;
 
-
-
-
   }
 
   #headings h3{
@@ -664,7 +677,8 @@ background-color: #006448;
 
  .link{
    font-size: 1.25em;
-   color: #000;
+   font-weight: bold;
+   color: #006448;
  }
 
 
