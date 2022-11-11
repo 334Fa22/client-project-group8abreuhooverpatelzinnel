@@ -500,6 +500,11 @@ input[type=number] {
 .tab-desk {
   display: none;
 }
+
+/* Style for Online Class Opening Picture*/
+#canvasscreen {
+  display: none;
+}
 }
 
 /* Media Query for Tablet Viewport */
@@ -538,6 +543,11 @@ padding: 20px;
 
 .footer-space-online {
   height: 300px;
+}
+
+/* Display for Online Class opening picture */
+#canvasscreen {
+  display: none;
 }
 
 }
@@ -695,6 +705,21 @@ background-color: #006448;
    font-weight: bold;
    color: #006448;
  }
+/* Style for Onlince Class opening Picture*/
+#canvasscreen {
+  display: block;
+}
+
+}
 
 
+/* Media Query Specifically for Online Class opening Picture */
+@media screen and (max-width: 1074px), print {
+  #canvasscreen {
+    display: none;
+  }
+
+  article.onlineclassopenings {
+    float: none;
+  }
 }
