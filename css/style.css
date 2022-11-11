@@ -147,6 +147,7 @@ article fieldset {
 
 #canvasscreen {
   filter: drop-shadow(4px 4px 8px #191919);
+  max-width: 100%;
 }
 
     /*class openings form content*/
