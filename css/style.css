@@ -225,7 +225,7 @@ input[type=button] {
 
 #classopeningsform2 input[type=text], #classopeningsform2 input[type=number] {
   margin: auto;
-  width: 30%;
+  width: 20%;
   border-radius: 5px;
   border: none;
 }
@@ -722,5 +722,17 @@ background-color: #006448;
 
   article.onlineclassopenings {
     float: none;
+  }
+}
+
+/* Media Query Specifically for Class openings quick search and additional */
+@media screen and (max-width: 1212px), print {
+  #classopeningsform2 {
+    display: none;
+  }
+
+  article.criteria {
+    float: none;
+    width: 90%;
   }
 }
