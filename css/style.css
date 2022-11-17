@@ -70,10 +70,11 @@ div.header {
 
 #menu-links {
   display:none;
-  float:right;
+  position: absolute;
   margin-top: 10px;
   padding: 20px;
   font-size: 20px;
+
 
 }
 /*Style rules for footer*/
